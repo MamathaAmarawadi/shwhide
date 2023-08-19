@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+
+  color: white;
+  height: 100vh;
+  background-size: cover;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 30px;
+}
+.heading {
+  text-align: center;
+}
+
+.card1 {
+  margin: 10px;
+  border-radius: 10px;
+  background-color: white;
+  height: 100px;
+  width: 190px;
+  color: black;
+  border-bottom: 10px;
+  border-width: 0px;
+  padding: 15px;
+  text-align: center;
+}
+
+.card2 {
+  margin: 10px;
+  color: black;
+  border-radius: 10px;
+  background-color: white;
+  height: 100px;
+  width: 190px;
+  border-bottom: 10px;
+  border-width: 0px;
+  padding: 15px;
+  text-align: center;
+}
+
+.card-name {
+  color: black;
+}
+.btnFrame {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.btn1 {
+  border-radius: 10px;
+  border-width: 0px;
+  color: #dd1264;
+  padding: 10px;
+  background-color: white;
+}
